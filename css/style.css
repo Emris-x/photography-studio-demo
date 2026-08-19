@@ -1370,21 +1370,16 @@ blockquote em {
    VÉRA — PHOTOGRAPHY ASSETS
    ========================================================= */
 
-/* HERO */
-
 .hero-media {
-  background-image: url("../assets/images/hero.jpg");
+  background-image: url("../assets/hero.jpg");
 
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-
-/* PORTFOLIO */
-
 .image-wedding {
-  background-image: url("../assets/images/wedding.jpg");
+  background-image: url("../assets/wedding.jpg");
 
   background-size: cover;
   background-position: center;
@@ -1392,7 +1387,7 @@ blockquote em {
 }
 
 .image-portrait {
-  background-image: url("../assets/images/portrait.jpg");
+  background-image: url("../assets/portrait.jpg");
 
   background-size: cover;
   background-position: center;
@@ -1400,7 +1395,7 @@ blockquote em {
 }
 
 .image-editorial {
-  background-image: url("../assets/images/editorial.jpg");
+  background-image: url("../assets/editorial.jpg");
 
   background-size: cover;
   background-position: center;
@@ -1408,39 +1403,28 @@ blockquote em {
 }
 
 .image-event {
-  background-image: url("../assets/images/event.jpg");
+  background-image: url("../assets/event.jpg");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
-/* FEATURED STORY */
 
 .image-feature {
-  background-image: url("../assets/images/featured.jpg");
+  background-image: url("../assets/featured.jpg");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
-/* ABOUT */
 
 .image-about {
-  background-image: url("../assets/images/about.jpg");
+  background-image: url("../assets/about.jpg");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
-/* =========================================================
-   MOBILE IMAGE POSITIONING
-   ========================================================= */
 
 @media (max-width: 680px) {
 
@@ -1448,26 +1432,11 @@ blockquote em {
     background-position: 62% center;
   }
 
-  .image-wedding {
-    background-position: center;
-  }
-
-  .image-portrait {
-    background-position: center;
-  }
-
-  .image-editorial {
-    background-position: center;
-  }
-
-  .image-event {
-    background-position: center;
-  }
-
-  .image-feature {
-    background-position: center;
-  }
-
+  .image-wedding,
+  .image-portrait,
+  .image-editorial,
+  .image-event,
+  .image-feature,
   .image-about {
     background-position: center;
   }
