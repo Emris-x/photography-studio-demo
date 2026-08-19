@@ -1366,3 +1366,110 @@ blockquote em {
   }
 
 }
+/* =========================================================
+   VÉRA — PHOTOGRAPHY ASSETS
+   ========================================================= */
+
+/* HERO */
+
+.hero-media {
+  background-image: url("../assets/images/hero.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+/* PORTFOLIO */
+
+.image-wedding {
+  background-image: url("../assets/images/wedding.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-portrait {
+  background-image: url("../assets/images/portrait.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-editorial {
+  background-image: url("../assets/images/editorial.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-event {
+  background-image: url("../assets/images/event.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* FEATURED STORY */
+
+.image-feature {
+  background-image: url("../assets/images/featured.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* ABOUT */
+
+.image-about {
+  background-image: url("../assets/images/about.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* =========================================================
+   MOBILE IMAGE POSITIONING
+   ========================================================= */
+
+@media (max-width: 680px) {
+
+  .hero-media {
+    background-position: 62% center;
+  }
+
+  .image-wedding {
+    background-position: center;
+  }
+
+  .image-portrait {
+    background-position: center;
+  }
+
+  .image-editorial {
+    background-position: center;
+  }
+
+  .image-event {
+    background-position: center;
+  }
+
+  .image-feature {
+    background-position: center;
+  }
+
+  .image-about {
+    background-position: center;
+  }
+
+}
